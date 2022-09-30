@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    list-style: none;
+}
+
+.cv {
+    background: white;
+    width: 794px;
+    height: 1123px;
+    margin: auto;
+}
+
+body {
+    background: cyan;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+/*backgroud ben trai*/
+.cv .cv_left {
+    width: 250px;
+    height: 130px;
+    margin: 15px 528px 0 30px;
+    background: rgb(122, 192, 10);
+}
+
+.cv .cv_right {
+    width: 400px;
+    background: #fff;
+    text-align: justify;
+    margin: -850px 70px 400px 350px;
+    padding: 25px;
+    color: black;
+}
+.cv .cv_left_button .cv_thongtin .cv_thongtin_1 .Name{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 60px;
+    color: white;
+
+}
+.cv .cv_left_button{
+    width: 250px;
+    height: 170px;
+    border-bottom-right-radius: 205px;
+    border-bottom-left-radius: 205px;
+    margin: -15px 528px 0 30px;
+    background: black;
+}
+.cv.cv_left.cv_img {
+    margin: 20px 155px 0 155px;
+}
+
+.cv .cv_img img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 130px 0 50px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.cv .data {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin: 30px 0 0 50px;
+}
+
+.cv .data .skills ul li{
+    display: grid;
+    margin-bottom: 10px;
+    justify-content: ;
+    align-items: center;
+    
+}
+
+.cv .data .skills ul li .skill_name {
+    width: 25%;
+}
+
+.skill_name {
+    width: 20px;
+    height: 30px;
+    margin-left: -50px;
+    margin-bottom: -22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.cv .data .skills ul li .skill_progress {
+    width: 20%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+
+.cv .data .skills ul li .skill_per {
+    width: 15%;
+}
+
+.skill_per {
+    width: 20px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: -14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.cv .data .skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #9acd32;
+}
+.cv .award {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin: 30px 0 0 50px;
+}
+
+.cv .cv_right .cv_right_button .chuyen_vien {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 20;
+}
+
+.cv .cv_right .cv_right_button .hoc_van {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 10;
+}
+
+.cv .button {
+    height: 160px;
+    width: 794px;
+    background: #9acd32;
+    margin: -360px 0 0 0;
+}
+
+.lien_he {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    margin: 0 0 0 10px;
+    padding: 5px;
+}
+
+.cv .button .lien_he ul li .icon {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+  }
+
+.cv .icon i,
+.cv .button .lien_he ul li i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cv .button .lien_he .icon img{
+    margin: 5px 3px 0 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.social {
+    width: 20px;
+    margin: -22px 0 0 35px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cv .button .map {
+    margin: -152px 0 0 634px;
+}
+
